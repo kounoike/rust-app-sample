@@ -47,3 +47,4 @@
 	releaseBranch = main
 	versionFile = Cargo.toml
     release = true
+    command = "cargo check"
