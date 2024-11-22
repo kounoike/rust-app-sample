@@ -59,4 +59,11 @@ docker_manifests:
     skip_push: auto
 
 release:
-  disable: true
+  github:
+    owner: kounoike
+    name: rust-app-sample
+  replace_existing_draft: true
+  replace_existing_artifacts: true
+  prerelease: auto
+  make_latest: true
+  mode: keep-existing
