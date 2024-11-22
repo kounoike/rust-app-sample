@@ -20,7 +20,7 @@ runs:
     - name: Install cross-rs
       uses: baptiste0928/cargo-install@v1
       with:
-        crate: cross-rs
+        crate: cross
     # - name: Set up Go
     #   uses: actions/setup-go@v5
     #   with:
