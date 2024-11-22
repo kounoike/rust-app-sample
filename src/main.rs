@@ -6,5 +6,6 @@ struct Cli {}
 
 fn main() {
     let cli = Cli::parse();
+    dbg!(cli);
     println!(env!("CARGO_PKG_VERSION"));
 }
