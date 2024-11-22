@@ -18,7 +18,7 @@ jobs:
       - name: Install Rust toolchain
         uses: dtolnay/rust-toolchain@stable
       - name: Install cross-rs
-        run cargo install 
+        run: cargo install 
       # - name: Set up Go
       #   uses: actions/setup-go@v5
       #   with:
