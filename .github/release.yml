@@ -14,7 +14,7 @@ changelog:
         - chore
     - title: "📚 Documentation"
       labels:
-        - docs
+        - Documentation
     - title: "🔒 Security"
       labels:
         - security
