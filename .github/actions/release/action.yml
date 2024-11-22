@@ -6,6 +6,7 @@ on:
       tag:
         description: 'The tag to release'
         required: true
+    secrets: inherit
 
 jobs:
   goreleaser:
