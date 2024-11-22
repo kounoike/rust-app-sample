@@ -18,8 +18,9 @@ runs:
     - name: Install Rust toolchain
       uses: dtolnay/rust-toolchain@stable
     - name: Install cross-rs
-      shell: bash
-      run: cargo install 
+      uses: baptiste0928/cargo-install@v1
+      with:
+        crate: cross-rs
     # - name: Set up Go
     #   uses: actions/setup-go@v5
     #   with:
