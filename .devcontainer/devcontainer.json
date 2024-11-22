@@ -1,0 +1,13 @@
+{
+	"name": "Rust",
+	"dockerComposeFile": "compose.yml",
+	"service": "devcontainer",
+	"workspaceFolder": "/workspaces/${localWorkspaceFolderBasename}",
+	"customizations": {
+		"vscode": {
+			"extensions": [
+				"EditorConfig.EditorConfig"
+			]
+		}
+	}
+}

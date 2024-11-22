@@ -1,0 +1,13 @@
+version: 2
+
+project_name: cep
+builds:
+  - main: dummy.go
+    goarch:
+      - amd64
+      - arm64
+    hooks:
+      pre: echo -e "package main\nfunc main() {\n}" > dummy.go
+      post: sh build-cross-release.sh
+release:
+  disable: true
