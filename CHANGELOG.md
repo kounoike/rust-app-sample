@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.1.14](https://github.com/kounoike/rust-app-sample/compare/v0.1.13...v0.1.14) - 2024-11-22
+### ❓ Other
+- tagprじゃなくgoreleaserでリリースを作ってみる by @kounoike in https://github.com/kounoike/rust-app-sample/pull/18
+
 ## [v0.1.13](https://github.com/kounoike/rust-app-sample/compare/v0.1.12...v0.1.13) - 2024-11-22
 ### ❓ Other
 - Create LICENSE by @kounoike in https://github.com/kounoike/rust-app-sample/pull/15
