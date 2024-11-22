@@ -2,3 +2,31 @@ changelog:
   exclude:
     labels:
       - tagpr
+  categories:
+    - title: "🚀 Features"
+      labels:
+        - feature
+    - title: "🐛 Bug Fixes"
+      labels:
+        - bug
+    - title: "🧰 Maintenance"
+      labels:
+        - chore
+    - title: "📚 Documentation"
+      labels:
+        - docs
+    - title: "🔒 Security"
+      labels:
+        - security
+    - title: "🔨 Refactor"
+      labels:
+        - refactor
+    - title: "🤖 Dependencies"
+      labels:
+        - dependencies
+    - title: "🧪 Tests"
+      labels:
+        - test
+    - title: "❓ Other"
+      labels:
+        - "*"
