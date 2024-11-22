@@ -17,7 +17,7 @@ jobs:
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
       - uses: ./.github/actions/release
-        secrets: inherit
         with:
           tag: ${{ steps.tagpr.outputs.tag }}
+          token: ${{ secrets.GITHUB_TOKEN }}
         if: steps.tagpr.outputs.tag != ''
