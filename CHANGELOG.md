@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.1.13](https://github.com/kounoike/rust-app-sample/compare/v0.1.12...v0.1.13) - 2024-11-22
+### ❓ Other
+- Create LICENSE by @kounoike in https://github.com/kounoike/rust-app-sample/pull/15
+- README追加 by @kounoike in https://github.com/kounoike/rust-app-sample/pull/17
+
 ## [v0.1.12](https://github.com/kounoike/rust-app-sample/compare/v0.1.11...v0.1.12) - 2024-11-22
 
 ## [v0.1.11](https://github.com/kounoike/rust-app-sample/compare/v0.1.10...v0.1.11) - 2024-11-22
