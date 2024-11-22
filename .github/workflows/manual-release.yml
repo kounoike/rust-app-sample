@@ -12,7 +12,7 @@ jobs:
       issues: write
       # id-token: write
     steps:
-    - uses: actions/checkout@v3
+    - uses: actions/checkout@v4
     - uses: ./.github/actions/release
       with:
         tag: ${{ github.ref }} # Note that github.ref is formatted like refs/tag/v1.2.3
