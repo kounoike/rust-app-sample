@@ -54,8 +54,8 @@ docker_manifests:
     skip_push: auto
   - name_template: ghcr.io/kounoike/{{ .ProjectName }}:{{ .Major }}-{{ .Minor }}
     image_templates:
-      - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Major }}-{{ .Minor }}-amd64
-      - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Major }}-{{ .Minor }}-arm64
+      - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Major }}.{{ .Minor }}-amd64
+      - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Major }}.{{ .Minor }}-arm64
     skip_push: auto
 
 release:
