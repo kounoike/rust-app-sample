@@ -19,18 +19,18 @@ builds:
 dockers:
   - image_templates:
     - ghcr.io/kounoike/{{ .ProjectName }}:latest-amd64
-    - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Version }}-amd64
-    - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Major }}-amd64
-    - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Major }}.{{ .Minor }}-amd64
+    - ghcr.io/kounoike/{{ .ProjectName }}:v{{ .Version }}-amd64
+    - ghcr.io/kounoike/{{ .ProjectName }}:v{{ .Major }}-amd64
+    - ghcr.io/kounoike/{{ .ProjectName }}:v{{ .Major }}.{{ .Minor }}-amd64
     use: buildx
     goos: linux
     goarch: amd64
     skip_push: auto
   - image_templates:
     - ghcr.io/kounoike/{{ .ProjectName }}:latest-arm64
-    - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Tag }}-arm64
-    - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Major }}-arm64
-    - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Major }}.{{ .Minor }}-arm64
+    - ghcr.io/kounoike/{{ .ProjectName }}:v{{ .Version }}-arm64
+    - ghcr.io/kounoike/{{ .ProjectName }}:v{{ .Major }}-arm64
+    - ghcr.io/kounoike/{{ .ProjectName }}:v{{ .Major }}.{{ .Minor }}-arm64
     use: buildx
     goos: linux
     goarch: arm64
@@ -44,18 +44,18 @@ docker_manifests:
     skip_push: auto
   - name_template: ghcr.io/kounoike/{{ .ProjectName }}:{{ .Version }}
     image_templates:
-      - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Version }}-amd64
-      - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Version }}-arm64
+      - ghcr.io/kounoike/{{ .ProjectName }}:v{{ .Version }}-amd64
+      - ghcr.io/kounoike/{{ .ProjectName }}:v{{ .Version }}-arm64
     skip_push: auto
   - name_template: ghcr.io/kounoike/{{ .ProjectName }}:{{ .Major }}
     image_templates:
-      - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Major }}-amd64
-      - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Major }}-arm64
+      - ghcr.io/kounoike/{{ .ProjectName }}:v{{ .Major }}-amd64
+      - ghcr.io/kounoike/{{ .ProjectName }}:v{{ .Major }}-arm64
     skip_push: auto
   - name_template: ghcr.io/kounoike/{{ .ProjectName }}:{{ .Major }}-{{ .Minor }}
     image_templates:
-      - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Major }}.{{ .Minor }}-amd64
-      - ghcr.io/kounoike/{{ .ProjectName }}:{{ .Major }}.{{ .Minor }}-arm64
+      - ghcr.io/kounoike/{{ .ProjectName }}:v{{ .Major }}.{{ .Minor }}-amd64
+      - ghcr.io/kounoike/{{ .ProjectName }}:v{{ .Major }}.{{ .Minor }}-arm64
     skip_push: auto
 
 release:
