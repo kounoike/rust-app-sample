@@ -1,0 +1,3 @@
+# rust-app-sample
+
+なんかrustのアプリを作ってマルチアーキテクチャのdockerイメージをghcrで公開したり色々するサンプル
