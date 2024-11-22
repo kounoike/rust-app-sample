@@ -12,6 +12,8 @@ jobs:
       # id-token: write
     steps:
       - uses: actions/checkout@v4
+      - name: Install Rust toolchain
+        uses: dtolnay/rust-toolchain@stable
       - id: tagpr
         uses: Songmu/tagpr@v1
         env:
