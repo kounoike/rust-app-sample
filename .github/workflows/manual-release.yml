@@ -16,3 +16,4 @@ jobs:
     - uses: ./.github/actions/release
       with:
         tag: ${{ github.ref }} # Note that github.ref is formatted like refs/tag/v1.2.3
+        inputs: ${{ secrets.GITHUB_TOKEN }}
