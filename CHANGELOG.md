@@ -1,5 +1,7 @@
 # Changelog
 
+## [v0.1.12](https://github.com/kounoike/rust-app-sample/compare/v0.1.11...v0.1.12) - 2024-11-22
+
 ## [v0.1.11](https://github.com/kounoike/rust-app-sample/compare/v0.1.10...v0.1.11) - 2024-11-22
 
 ## [v0.1.10](https://github.com/kounoike/rust-app-sample/compare/v0.1.9...v0.1.10) - 2024-11-22
