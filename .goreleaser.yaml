@@ -59,4 +59,15 @@ docker_manifests:
     skip_push: auto
 
 release:
-  disable: true
+  github:
+    owner: kounoike
+    name: rust-app-sample
+  replace_existing_draft: true
+  replace_existing_artifacts: true
+  prerelease: auto
+  make_latest: true
+  header: |
+    ## Released v{{ .Version }} at {{ .Date }}
+  footer: |
+    Changelog is also available at [CHANGELOG.md](https://github.com/kounoike/rust-app-sample/blob/main/CHANGELOG.md)
+  name_template: "🚀 {{ .ProjectName }} v{{ .Version }} "
