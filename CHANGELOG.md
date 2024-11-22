@@ -1,5 +1,10 @@
 # Changelog
 
+## [v0.1.16](https://github.com/kounoike/rust-app-sample/compare/v0.1.15...v0.1.16) - 2024-11-22
+### ❓ Other
+- label-syncer by @kounoike in https://github.com/kounoike/rust-app-sample/pull/22
+- labelerとsize-labelerを追加 by @kounoike in https://github.com/kounoike/rust-app-sample/pull/24
+
 ## [v0.1.15](https://github.com/kounoike/rust-app-sample/compare/v0.1.14...v0.1.15) - 2024-11-22
 ### ❓ Other
 - tagprじゃなくgoreleaserでリリースを作ってみる by @kounoike in https://github.com/kounoike/rust-app-sample/pull/20
