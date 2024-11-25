@@ -1,5 +1,9 @@
 # Changelog
 
+## [v0.2.0](https://github.com/kounoike/rust-app-sample/compare/v0.1.16...v0.2.0) - 2024-11-25
+### ❓ Other
+- すっごい機能搭載 by @kounoike in https://github.com/kounoike/rust-app-sample/pull/26
+
 ## [v0.1.16](https://github.com/kounoike/rust-app-sample/compare/v0.1.15...v0.1.16) - 2024-11-25
 ### ❓ Other
 - label-syncer by @kounoike in https://github.com/kounoike/rust-app-sample/pull/22
