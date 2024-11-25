@@ -8,4 +8,5 @@ fn main() {
     let cli = Cli::parse();
     dbg!(cli);
     println!(env!("CARGO_PKG_VERSION"));
+    println!("v0.1.0で入る凄い機能!");
 }
